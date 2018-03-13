@@ -7,6 +7,14 @@ public class TestAccount {
     Account ashish = new Account(123,"Ashish",1000);
     assertEquals(ashish.getHolderName(),"Ashish");
   }
+
+  @Test
+
+  public void testAccNumber() {
+    Account ashish = new Account(123,"Ashish",1000);
+    float expected = ashish.getAccoutNumber();
+    assertEquals(expected,123);
+  }
   @Test
 
   public void testBalance() {
