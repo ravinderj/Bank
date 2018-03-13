@@ -19,8 +19,4 @@ public class Account {
   public float getBalance(){
     return balance;
   }
-  public static void main(String[] args) {
-    Account account = new Account(1, "Ravinder", 100);
-    System.out.println(account.getAccountNumber());
-  }
 }
