@@ -1,7 +1,7 @@
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
-public class TestBank {
+public class TestAccount {
   @Test
 
   public void testAdd() {
