@@ -12,7 +12,7 @@ public class TestAccount {
 
   public void testAccNumber() {
     Account ashish = new Account(123,"Ashish",1000);
-    float expected = ashish.getAccoutNumber();
+    int expected = ashish.getAccountNumber();
     assertEquals(expected,123);
   }
   @Test
