@@ -1,2 +1,2 @@
 #! /bin/sh
-java TestRunner
+java -cp test/junit-4.10.jar: TestRunner
